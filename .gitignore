@@ -18,3 +18,6 @@
 *.swp
 *.swo
 *.swn
+
+# Spree product-specific files
+/public/spree/products
