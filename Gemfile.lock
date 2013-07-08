@@ -66,6 +66,14 @@ GIT
       spree_core (~> 2.0.0)
       spree_frontend (~> 2.0.0)
 
+GIT
+  remote: git://github.com/spree/spree_reviews.git
+  revision: 6026e65b8f5eca52f740cb41d89075875744d28d
+  branch: 2-0-stable
+  specs:
+    spree_reviews (1.0.0)
+      spree_core (~> 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -253,5 +261,6 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
+  spree_reviews!
   sqlite3
   uglifier (>= 1.0.3)
