@@ -7,7 +7,9 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
-gem 'spree', '~> 2.0.0'
+# NOTE: Versions of spree and spree_auth_devise must match
+gem 'spree',             :github => 'spree/spree',             :branch => '2-0-stable'
+gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '2-0-stable'
 
 
 # Gems used only for assets and not required
