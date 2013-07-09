@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130709072225) do
+ActiveRecord::Schema.define(:version => 20130709082036) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -149,6 +149,18 @@ ActiveRecord::Schema.define(:version => 20130709072225) do
 
   add_index "spree_feedback_reviews", ["review_id"], :name => "index_feedback_reviews_on_review_id"
   add_index "spree_feedback_reviews", ["user_id"], :name => "index_feedback_reviews_on_user_id"
+
+  create_table "spree_flash_sales", :force => true do |t|
+    t.string   "name"
+    t.datetime "start_date"
+    t.datetime "end_date"
+    t.boolean  "active"
+    t.string   "permalink"
+    t.integer  "saleable_id"
+    t.string   "saleable_type"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
   create_table "spree_gateways", :force => true do |t|
     t.string   "type"

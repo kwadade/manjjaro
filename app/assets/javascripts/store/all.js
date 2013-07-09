@@ -12,3 +12,4 @@
 //= require_tree .
 //= require jquery.rating
 //= require store/spree_product_zoom
+//= require store/spree_flash_sales
