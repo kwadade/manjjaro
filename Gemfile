@@ -8,12 +8,13 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 
 # NOTE: Versions of spree and spree_auth_devise must match
-gem 'spree',              :github => 'spree/spree',              :branch => '2-0-stable'
-gem 'spree_auth_devise',  :github => 'spree/spree_auth_devise',  :branch => '2-0-stable'
-gem 'spree_reviews',      :github => 'spree/spree_reviews',      :branch => '2-0-stable'
-gem 'spree_product_zoom', :github => 'spree/spree_product_zoom', :branch => '2-0-stable'
-gem 'spree_gateway',      :github => 'spree/spree_gateway',      :branch => '2-0-stable'
-gem 'spree_social',       :github => 'spree/spree_social',       :branch => '2-0-stable'
+gem 'spree',              :github => 'spree/spree',               :branch => '2-0-stable'
+gem 'spree_auth_devise',  :github => 'spree/spree_auth_devise',   :branch => '2-0-stable'
+gem 'spree_reviews',      :github => 'spree/spree_reviews',       :branch => '2-0-stable'
+gem 'spree_product_zoom', :github => 'spree/spree_product_zoom',  :branch => '2-0-stable'
+gem 'spree_gateway',      :github => 'spree/spree_gateway',       :branch => '2-0-stable'
+gem 'spree_social',       :github => 'spree/spree_social',        :branch => '2-0-stable'
+gem 'spree_flash_sales',  :github => 'ecl1pse/spree_flash_sales', :branch => '2-0-stable'
 
 
 # Gems used only for assets and not required

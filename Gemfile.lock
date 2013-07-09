@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/ecl1pse/spree_flash_sales.git
+  revision: 7d2ca8f2bccc90bed4a0650289a458d36dfbb9f9
+  branch: 2-0-stable
+  specs:
+    spree_flash_sales (2.0.3)
+      draper (~> 1.2.1)
+      spree_core (~> 2.0.3)
+
+GIT
   remote: git://github.com/spree/spree.git
   revision: 2a9ce08cfb723d5245892f16b51ddd2a43f21c84
   branch: 2-0-stable
@@ -183,6 +192,10 @@ GEM
       warden (~> 1.2.1)
     devise-encryptable (0.1.2)
       devise (>= 2.1.0)
+    draper (1.2.1)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      request_store (~> 1.0.3)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -292,6 +305,7 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    request_store (1.0.5)
     sass (3.2.9)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -346,6 +360,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
+  spree_flash_sales!
   spree_gateway!
   spree_product_zoom!
   spree_reviews!
