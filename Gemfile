@@ -12,6 +12,7 @@ gem 'spree',              :github => 'spree/spree',              :branch => '2-0
 gem 'spree_auth_devise',  :github => 'spree/spree_auth_devise',  :branch => '2-0-stable'
 gem 'spree_reviews',      :github => 'spree/spree_reviews',      :branch => '2-0-stable'
 gem 'spree_product_zoom', :github => 'spree/spree_product_zoom', :branch => '2-0-stable'
+gem 'spree_gateway',      :github => 'spree/spree_gateway',      :branch => '2-0-stable'
 
 
 # Gems used only for assets and not required
